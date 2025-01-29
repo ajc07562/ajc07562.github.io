@@ -1,0 +1,234 @@
+/* General Styles */
+body {
+    margin: 0;
+    
+    background-color: #14213d;
+    color: #ffffff;
+}
+
+/* Nav Styles */
+nav {
+    background-color: #fca311;
+    color:#000000;
+    font-size: 20;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+nav p, nav a {
+    font-size: 100;
+}
+
+nav p {
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color:#000000;
+}
+
+nav a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #fca311;
+    color: #000000;
+    font-size: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    color:#000000
+}
+
+footer a:hover {
+    color: lime
+}
+
+/* Splash Section */
+.splash {
+    background-color: #14213d;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.splash h1 {
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: lime;
+    text-align: center;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: xx-large;
+}
+
+.splash img {
+    border-radius: 25%;
+    border: 3px solid #fca311;
+    max-width: 150px; 
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.splash p {
+    font-style: italic;
+    color: lime;
+    font-family: 'Courier Prime', sans-serif;
+    text-align: center;
+}
+
+/* Horizontal Rules */
+hr {
+    border-style: dashed;
+    border-color: #fca311;
+}
+
+/* Sections */
+section {
+    font-family: "Courier Prime", serif;
+    font-size: 13;
+}
+
+/* Section Headings */
+section h2 {
+    font-family: "Courier Prime", serif;
+    color: lime;
+    margin: 20px;
+    font-size: x-large;
+}
+
+/* Paragraph Styles */
+section p {
+    font-family: 'Courier Prime', sans-serif;
+    margin: 20px;
+    
+}
+
+/* link styles */
+section a {
+    color: plum;
+    text-decoration: none;
+}
+section a:hover {
+    color: yellow;
+}
+
+/* List Styles */
+ul {
+    border: 2px solid #ffffff;
+    border-style: dashed;
+    list-style-type: square;
+    border-radius: 5%;
+    line-height: 2;
+    margin: 20px;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    margin: 20px 0;
+    align-items: center;
+}
+dl dt{
+    text-align: right;
+    margin-right: 10px;
+    margin: 20px;
+    font-weight: bold;
+}
+dl dd{
+    margin: 0;
+    text-align: left;
+}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: gray;
+    border-radius: 5%;
+    margin: 20px;
+}
+
+.card img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 250px;
+    border-radius: 5%;
+    object-fit: cover;
+}
+
+.card h3 {
+    text-align: center;
+    color: #14213d;
+}
+
+/* Contact Page Styles */
+.one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+form {
+    font-family: "Courier Prime", serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+form input, form textarea {
+    width: 30%;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    font-size: 16px;
+}
+
+
+form button {
+    background-color: #fca311; /* Button background color */
+    color: #ffffff; 
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Courier Prime", serif;
+}
+
+form button:hover {
+    background-color: #e69600ad;
+}
+
+.courier-prime-regular {
+    font-family: "Courier Prime", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .press-start-2p-regular {
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
